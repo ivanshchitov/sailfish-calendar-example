@@ -11,6 +11,15 @@ Page {
     }
     SilicaListView {
         anchors.fill: parent
+
+        PullDownMenu {
+            MenuItem {
+                text: "Add new event"
+                onClicked: pageStack.push(Qt.resolvedUrl("EditEventDialog.qml"),
+                                          {eventMod: Calendar.createNewEvent()})
+            }
+        }
+
         spacing: Theme.paddingMedium
         header: PageHeader {title: "Calendar events"}
         model: agendaModel
@@ -32,6 +41,11 @@ Page {
                 }
             }
             menu: ContextMenu {
+                MenuItem {
+                    text: "Edit"
+                    onClicked: pageStack.push(Qt.resolvedUrl("EditEventDialog.qml"),
+                                              {eventMod: Calendar.createModification(event)})
+                }
                 MenuItem {
                     text: "Delete"
                     onClicked: Calendar.remove(event.uniqueId)

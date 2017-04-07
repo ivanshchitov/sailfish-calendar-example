@@ -8,4 +8,19 @@
         <translation type="unfinished"></translation>
     </message>
 </context>
+<context>
+    <name>EditEventDialog</name>
+    <message>
+        <source>Date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Start time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>End time</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
 </TS>

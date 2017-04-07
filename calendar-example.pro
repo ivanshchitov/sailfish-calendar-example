@@ -19,3 +19,6 @@ SAILFISHAPP_ICONS = 86x86 108x108 128x128 256x256
 CONFIG += sailfishapp_i18n
 
 TRANSLATIONS += translations/calendar-example-de.ts
+
+DISTFILES += \
+    qml/pages/EditEventDialog.qml
