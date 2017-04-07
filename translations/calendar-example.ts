@@ -8,15 +8,4 @@
         <translation type="unfinished"></translation>
     </message>
 </context>
-<context>
-    <name>FirstPage</name>
-    <message>
-        <source>Hello Sailors</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Calendar events</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
 </TS>
