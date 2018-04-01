@@ -7,7 +7,7 @@ Page {
     AgendaModel {
         id: agendaModel
         startDate: new Date()
-        endDate: new Date(2018, 0)
+        endDate: new Date(2030, 0)
     }
     SilicaListView {
         anchors.fill: parent
@@ -53,6 +53,7 @@ Page {
             }
         }
     }
+
     function eventDateTimeToString(event) {
         return Qt.formatTime(event.startTime, "HH:mm") + " – "
                 + Qt.formatTime(event.endTime, "HH:mm") + "\t"

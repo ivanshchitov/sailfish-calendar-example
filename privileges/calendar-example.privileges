@@ -1,0 +1,2 @@
+# Tells invoker to run calendar-example as nemo:privileged
+/usr/bin/calendar-example,a

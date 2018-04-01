@@ -2,7 +2,7 @@
 Type=Application
 X-Nemo-Application-Type=silica-qt5
 Icon=calendar-example
-Exec=calendar-example
+Exec=invoker --type=silica-qt5 -s /usr/bin/calendar-example
 Name=calendar-example
 # translation example:
 # your app name in German locale (de)
