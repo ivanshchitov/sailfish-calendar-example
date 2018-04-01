@@ -10,5 +10,5 @@ PkgBR:
 
 But on emulator it is not happened and it needs to install the plugin manually.
 
-To run this application with privileges (which are needed to work with calendar) using Qt Creator you need go to Projects -> Run and set up:
+To run the application with privileges (which are needed to work with the calendar API) using Qt Creator you need go to Projects -> Run and set up:
 'Alternate executable on device' as 'invoker' and 'Arguments' as '--type=silica-qt5 -s /usr/bin/calendar-example'.
