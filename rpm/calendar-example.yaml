@@ -27,13 +27,13 @@ PkgConfigBR:
   - Qt5Quick
 
 # Build dependencies without a pkgconfig setup can be listed here
-PkgBR:
-  - nemo-qml-plugin-calendar-qt5
+# PkgBR:
+#  - nemo-qml-plugin-calendar-qt5
 
 # Runtime dependencies which are not automatically detected
 Requires:
   - sailfishsilica-qt5 >= 0.10.9 
-  - nemo-qml-plugin-contacts-qt5
+  - nemo-qml-plugin-calendar-qt5
 
 # All installed files
 Files:
